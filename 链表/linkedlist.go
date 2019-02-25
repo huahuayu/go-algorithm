@@ -1,4 +1,4 @@
-package linkedlist
+package 链表
 
 import (
 	"fmt"
