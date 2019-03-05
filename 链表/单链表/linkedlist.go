@@ -1,4 +1,4 @@
-package 链表
+package 单链表
 
 import (
 	"fmt"
