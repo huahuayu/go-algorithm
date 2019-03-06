@@ -46,6 +46,7 @@ func flatten2Map(flat map[string]interface{}) (map[string]interface{}, error) {
 
 		// Walk the keys until we get to a leaf node.
 		m := unflat
+
 		for i, k := range keyParts[:len(keyParts)-1] {
 			v, exists := m[k]
 			if !exists {
